@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Assignment</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="App.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1>JAVASCRIPT PRACTICE ASSIGNMENT 2</h1>
+        <button data-toggle="collapse" data-target="#chap21_25">
+            <h3>Chapter#21 to 25</h3>
+        </button>
+        <div class="collapse" id="chap21_25">
+            <button>
+                <h3>Question & Answer</h3>
+            </button>
+            <button data-toggle="collapse" data-target="#c21_25ans1"><b>Question#1</b></button>
+            <div class="collapse" id="c21_25ans1">
+                <p>1) Write a program that takes two user inputs for first and
+                    last name using prompt and merge them in a new variable
+                    titled fullName. Greet the user using his full name.
+                </p>
+                <p>1) Answer= </p>
+                <ul>
+                    <li>var fname = prompt("Enter First Name:");</li>
+                    <li>var lname = prompt("Enter Last Name:");</li>
+                    <li>var fullname = fname + lname;</li>
+                    <li>alert("Welcome " + fullname);</li>
+                </ul>
+                <button onclick="c21_25ans1()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c21_25ans2"><b>Question#2</b></button>
+            <div class="collapse" id="c21_25ans2">
+                <p>2) Write a program to take a user input about his favorite
+                    mobile phone model. Find and display the length of user
+                    input in your browser
+                </p>
+                <p>2) Answer= </p>
+                <ul>
+                    <li>var fmob = prompt("Enter Your Favourite Mobile:");</li>
+                    <li>var fmob_len = fmob.length;</li>
+                    <li>document.write("My Favourite Phone Is: " + fmob);</li>
+                    <li>document.write("Length Of String: " + fmob_len);</li>
+                </ul>
+                <button onclick="c21_25ans2()">For Display Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c21_25ans3"><b>Question#3</b></button>
+            <div class="collapse" id="c21_25ans3">
+                <p>3) Write a program to find the index of letter “n” in the word
+                    “Pakistani” and display the result in your browser .
+                </p>
+                <p>3) Answer= </p>
+                <ul>
+                    <li>var letter = "Pakistani";</li>
+                    <li>var letter_ind = letter.indexOf("n");</li>
+                    <li>document.write("String: " + letter);</li>
+                    <li>document.write("Index Of 'n': " + letter_ind);</li>
+                </ul>
+                <button onclick="c21_25ans3()">For Display Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c21_25ans4"><b>Question#4</b></button>
+            <div class="collapse" id="c21_25ans4">
+                <p>4) Write a program to find the last index of letter “l” in the
+                    word “Hello World” and display the result in your browser.
+                </p>
+                <p>4) Answer= </p>
+                <ul>
+                    <li>var letter = "Hello World";</li>
+                    <li>var letter_ind = letter.lastIndexOf("l");</li>
+                    <li>document.write("String: " + letter);</li>
+                    <li>document.write("Last Index Of 'l': " + letter_ind);</li>
+                </ul>
+                <button onclick="c21_25ans4()">For Display Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c21_25ans5"><b>Question#5</b></button>
+            <div class="collapse" id="c21_25ans5">
+                <p>5) Write a program to find the character at 3rd index in the
+                    word “Pakistani” and display the result in your browser.
+                </p>
+                <p>5) Answer= </p>
+                <ul>
+                    <li>var letter = "Pakistani";</li>
+                    <li>var letter_ind = letter.charAt(3);</li>
+                    <li>document.write("String: " + letter);</li>
+                    <li>document.write("Character At Index 3: " + letter_ind);</li>
+                </ul>
+                <button onclick="c21_25ans5()">For Display Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c21_25ans6"><b>Question#6</b></button>
+            <div class="collapse" id="c21_25ans6">
+                <p>6) Repeat Q1 using string concat() method.</p>
+                <p>6) Answer= </p>
+                <ul>
+                    <li>var fname = prompt("Enter First Name:");</li>
+                    <li>var lname = prompt("Enter Last Name:");</li>
+                    <li>var con_cat = fname.concat(lname);</li>
+                    <li>alert("Welcome " + con_cat);</li>
+                </ul>
+                <button onclick="c21_25ans6()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c21_25ans7"><b>Question#7</b></button>
+            <div class="collapse" id="c21_25ans7">
+                <p>7) Write a program to replace the “Hyder” to “Islam” in the
+                    word “Hyderabad” and display the result in your browser.
+                </p>
+                <p>7) Answer= </p>
+                <ul>
+                    <li>var city = "Hyderabad";</li>
+                    <li>var city_rep = city.replace(/Hyder/g, "Islam");</li>
+                    <li>document.write("City: " + city);</li>
+                    <li>document.write("After Replacement: " + city_rep);</li>
+                </ul>
+                <button onclick="c21_25ans7()">For Dispaly Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c21_25ans8"><b>Question#8</b></button>
+            <div class="collapse" id="c21_25ans8">
+                <p>8) . Write a program to replace all occurrences of “and” in the
+                    string with “&” and display the result in your browser.
+                </p>
+                <p>var message = “Ali and Sami are best friends. They play cricket and
+                    football together.”;
+                </p>
+                <p>8) Answer= </p>
+                <ul>
+                    <li>var message = "Ali and Sami are best friends.They play cricket and football together.";</li>
+                    <li>var message_rep = message.replace(/and/g, "&");</li>
+                    <li>var message_rep = message.replace(/and/g, "&");</li>
+                    <li>document.write("Message After Replacement: " + message_rep);</li>
+                </ul>
+                <button onclick="c21_25ans8()">For Display Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c21_25ans9"><b>Question#9</b></button>
+            <div class="collapse" id="c21_25ans9">
+                <p>9) Write a program that converts a string “472” to a number
+                    472. Display the values & types in your browser.
+                </p>
+                <p>9) Answer= </p>
+                <ul>
+                    <li>var str = "472";</li>
+                    <li>var str_type = typeof (str);</li>
+                    <li>var str_conv = Number(str);</li>
+                    <li>var str_type2 = typeof (str_conv);</li>
+                    <li>document.write("Value: " + str + "Type: " + str_type);</li>
+                    <li>document.write("Value: " + str_conv + "Type: " + str_type2);</li>
+                </ul>
+                <button onclick="c21_25ans9()">For Display Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c21_25ans10"><b>Question#10</b></button>
+            <div class="collapse" id="c21_25ans10">
+                <p>10) Write a program that takes user input. Convert and
+                    show the input in capital letters.
+                </p>
+                <p>10) Answer= </p>
+                <ul>
+                    <li>var user = prompt("Enter Any Word:");</li>
+                    <li>var user1 = user.toUpperCase();</li>
+                    <li>document.write("User Input: " + user);</li>
+                    <li>document.write("Upper Case: " + user1);</li>
+                </ul>
+                <button onclick="c21_25ans10()">For Display Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c21_25ans11"><b>Question#11</b></button>
+            <div class="collapse" id="c21_25ans11">
+                <p>11) Write a program that takes user input. Convert and
+                    show the input in title case.
+                </p>
+                <p>11) Answer= </p>
+                <ul>
+                    <li>var str = prompt("Enter Any Word:");</li>
+                    <li>var str2 = str.replace(/\w\S*/g,</li>
+                    <li>function (txt) {</li>
+                    <li>return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});</li>
+                    <li>document.write("User Input: " + str);</li>
+                    <li>document.write("Title Case: " + str2);</li>
+                </ul>
+                <button onclick="c21_25ans11()">For Display Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c21_25ans12"><b>Question#12</b></button>
+            <div class="collapse" id="c21_25ans12">
+                <p>12) Write a program that converts the variable num to string.</p>
+                <p>var num = 35.36 ;</p>
+                <p>Remove the dot to display “3536” display in your browser.</p>
+                <p>12) Answer= </p>
+                <ul>
+                    <li>var num = 33.56;</li>
+                    <li>var str = num.toString().replace(".", "");</li>
+                    <li>document.write("Number: " + num);</li>
+                    <li>document.write("Result: " + str);</li>
+                </ul>
+                <button onclick="c21_25ans12()">For Display Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c21_25ans13"><b>Question#13</b></button>
+            <div class="collapse" id="c21_25ans13">
+                <p>13) Write a program to take user input and store username
+                    in a variable. If the username contains any special symbol
+                    among [@ . , !], prompt the user to enter a valid username.
+                    For character codes of [@ .
+                </p>
+                <p>13) Answer= </p>
+                <button onclick="c21_25ans13()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c21_25ans14"><b>Question#14</b></button>
+            <div class="collapse" id="c21_25ans14">
+                <p>14) You have an array</p>
+                <ul>
+                    <li>A = [cake”, “apple pie”, “cookie”, “chips”, “patties”]</li>
+                    <li>Write a program to enable “search by user input” in an array. After searching, prompt the user
+                        whether the given item is found in the list or not.</li>
+                    <li>Note: Perform case insensitive search. Whether the user enters cookie, Cookie, COOKIE or coOkIE,
+                        program should inform about its availability. Example:</li>
+                </ul>
+                <p>14) Answer= </p>
+                <ul>
+                    <li>var user = prompt("Welcome to ABC Bakery.What do you want to order sir/ma'am?").toLowerCase();
+                    </li>
+                    <li>var item = ["cake", "apple pie", "cookie", "chips", "patties"];</li>
+                    <li>var matchFound = "no";</li>
+                    <li>for (var i = 0; i < item.length; i++) {</li>
+                    <li>if (item[i] === user) {</li>
+                    <li>matchFound = "yes";</li>
+                    <li>document.write(user + " is available at index " + i + " in our Bakery.");}}</li>
+                    <li>if (matchFound === "no") {</li>
+                    <li>document.write("We are sorry." + user + " is not available in our Bakery.");}</li>
+                </ul>
+                <button onclick="c21_25ans14()">For Display Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c21_25ans15"><b>Question#15</b></button>
+            <div class="collapse" id="c21_25ans15">
+                <p>15) </p>
+                <ul>
+                    <li>Write a program to take password as an input from user. The password must qualify these
+                        requirements:</li>
+                    <li>a. It should contain alphabets and numbers</li>
+                    <li>b. It should not start with a number</li>
+                    <li>c. It must at least 6 characters long If the password does not meet above requirements, prompt
+                        the user to enter a valid password. For character codes of a-z, A-Z & 0-9, refer to ASCII table
+                        at the end of this document.</li>
+                </ul>
+                <p>15) Answer= </p>
+                <button onclick="c21_25ans15()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c21_25ans16"><b>Question#16</b></button>
+            <div class="collapse" id="c21_25ans16">
+                <p>16) Write a program to convert the following string to an array using string split method.</p>
+                <p>var university = “University of Karachi”;</p>
+                <p>Display the elements of array in your browser.</p>
+                <p>16) Answer= </p>
+                <ul>
+                    <li>var str = "University Of Karachi";</li>
+                    <li>var str_splt = str.split("");</li>
+                    <li>for (var i = 0; i < str_splt.length; i++) {</li>
+                    <li>document.write(str_splt[i]);}</li>
+                </ul>
+                <button onclick="c21_25ans16()">For Display Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c21_25ans17"><b>Question#17</b></button>
+            <div class="collapse" id="c21_25ans17">
+                <p>17) </p>
+                <p>17) Answer= </p>
+                <button onclick="c21_25ans17()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c21_25ans1"><b>Question#1</b></button>
+            <div class="collapse" id="c21_25ans1">
+                <p>1) </p>
+                <p>1) Answer= </p>
+                <button onclick="c21_25ans1()">For Alert Click Here</button>
+            </div>
+        </div>
+        <!-- <button data-toggle="collapse" data-target="#chap21_25">
+            <h3>Chapter#21 to 25</h3>
+        </button>
+        <div class="collapse" id="chap21_25">
+            <button>
+                <h3>Question & Answer</h3>
+            </button>
+            <button data-toggle="collapse" data-target="#c21_25ans1"><b>Question#1</b></button>
+            <div class="collapse" id="c21_25ans1">
+                <p>1) </p>
+                <p>1) Answer= </p>
+                <button onclick="c21_25ans1()">For Alert Click Here</button>
+            </div>
+        </div> -->
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+</html>

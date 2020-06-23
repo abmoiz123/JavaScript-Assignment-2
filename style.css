@@ -1,0 +1,28 @@
+body {
+    background-color: aqua;
+    /* text-align: center; */
+}
+h1 {
+    background-color: coral;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+}
+button {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    background-color: coral;
+}
+button:hover {
+    background-color: cornflowerblue;
+}
+p {
+    background-color: cornsilk;
+    padding: 5px;
+    margin: 0;
+}
+ul, li {
+    background-color: cornsilk;
+    margin: 0;
+}
