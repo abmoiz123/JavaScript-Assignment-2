@@ -261,31 +261,596 @@
             </div>
             <button data-toggle="collapse" data-target="#c21_25ans17"><b>Question#17</b></button>
             <div class="collapse" id="c21_25ans17">
-                <p>17) </p>
+                <p>17) Write a program to display the last character of a user input.</p>
                 <p>17) Answer= </p>
-                <button onclick="c21_25ans17()">For Alert Click Here</button>
+                <ul>
+                    <li>var user = "Pakistan";</li>
+                    <li>var user2 = user.charAt(user.length - 1);</li>
+                    <li>document.write("User Input: " + user);</li>
+                    <li>document.write("Last Character Of Input: " + user2);</li>
+                </ul>
+                <button onclick="c21_25ans17()">For Display Click Here</button>
             </div>
-            <button data-toggle="collapse" data-target="#c21_25ans1"><b>Question#1</b></button>
-            <div class="collapse" id="c21_25ans1">
-                <p>1) </p>
-                <p>1) Answer= </p>
-                <button onclick="c21_25ans1()">For Alert Click Here</button>
+            <button data-toggle="collapse" data-target="#c21_25ans18"><b>Question#18</b></button>
+            <div class="collapse" id="c21_25ans18">
+                <p>18) You have a string “The quick brown fox jumps over the
+                    lazy dog”. Write a program to count number of
+                    occurrences of word “the” in given string.</p>
+                <p>18) Answer= </p>
+                <button onclick="c21_25ans18()">For Alert Click Here</button>
             </div>
         </div>
-        <!-- <button data-toggle="collapse" data-target="#chap21_25">
-            <h3>Chapter#21 to 25</h3>
+        <button data-toggle="collapse" data-target="#chap26_30">
+            <h3>Chapter#26 to 30</h3>
         </button>
-        <div class="collapse" id="chap21_25">
+        <div class="collapse" id="chap26_30">
             <button>
                 <h3>Question & Answer</h3>
             </button>
-            <button data-toggle="collapse" data-target="#c21_25ans1"><b>Question#1</b></button>
-            <div class="collapse" id="c21_25ans1">
-                <p>1) </p>
-                <p>1) Answer= </p>
-                <button onclick="c21_25ans1()">For Alert Click Here</button>
+            <button data-toggle="collapse" data-target="#c26_30ans1"><b>Question#1</b></button>
+            <div class="collapse" id="c26_30ans1">
+                <p>1) Write a program that takes a positive integer from user &
+                    display the following in your browser.
+                </p>
+                <ul>
+                    <li>a. number</li>
+                    <li>b. round off value of the number</li>
+                    <li>c. floor value of the number</li>
+                    <li>d. ceil value of the number</li>
+                </ul>
+                <p>1) Answer= var user = +prompt("Enter Positive Integar");</p>
+                <ul>
+                    <li>var round = Math.round(user);</li>
+                    <li>var floor = Math.floor(user);</li>
+                    <li>var ceil = Math.ceil(user);</li>
+                    <li>document.write("Number: " + user);</li>
+                    <li>document.write("Round Off Value: " + round);</li>
+                    <li>document.write("Floor Value: " + floor);</li>
+                    <li>document.write("Ceil Value: " + ceil);</li>
+                    <li>document.write(refresh);</li>
+                </ul>
+                <button onclick="c26_30ans1()">For Alert Click Here</button>
             </div>
-        </div> -->
+            <button data-toggle="collapse" data-target="#c26_30ans2"><b>Question#2</b></button>
+            <div class="collapse" id="c26_30ans2">
+                <p>2) Write a program that takes a negative floating point
+                    number from user & display the following in your browser.
+                </p>
+                <ul>
+                    <li>a. number</li>
+                    <li>b. round off value of the number</li>
+                    <li>c. floor value of the number</li>
+                    <li>d. ceil value of the number</li>
+                </ul>
+                <p>2) Answer= </p>
+                <ul>
+                    <li>var user = +prompt("Enter Negative Integar");</li>
+                    <li>var round = Math.round(user);</li>
+                    <li>var floor = Math.floor(user);</li>
+                    <li>var ceil = Math.ceil(user);</li>
+                    <li>document.write("Number: " + user);</li>
+                    <li>document.write("Round Off Value: " + round);</li>
+                    <li>document.write("Floor Value: " + floor);</li>
+                    <li>document.write("Ceil Value: " + ceil);</li>
+                </ul>
+                <button onclick="c26_30ans2()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c26_30ans3"><b>Question#3</b></button>
+            <div class="collapse" id="c26_30ans3">
+                <p>3) Write a program that displays the absolute value of a
+                    number.
+                </p>
+                <p>absolute value of -4 is 4 & absolute value of 5 is 5</p>
+                <p>3) Answer= </p>
+                <ul>
+                    <li>var user = +prompt("Enter Any Value:");</li>
+                    <li>var absolute = Math.abs(user);</li>
+                    <li>document.write("The Absolute Value Of " + user + " is " + absolute);</li>
+                </ul>
+                <button onclick="c26_30ans3()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c26_30ans4"><b>Question#4</b></button>
+            <div class="collapse" id="c26_30ans4">
+                <p>4) Write a program that simulates a dice using random()
+                    method of JS Math class. Display the value of dice in your
+                    browser.
+                </p>
+                <p>4) Answer= </p>
+                <ul>
+                    <li>var random = Math.random() * 6;</li>
+                    <li>var floor = Math.floor(random);</li>
+                    <li>if (floor === 0) {</li>
+                    <li>document.write("Random Dice Value is: 1");}</li>
+                    <li>else {</li>
+                    <li>document.write("Random Dice Value is: " + floor);}</li>
+                </ul>
+                <button onclick="c26_30ans4()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c26_30ans5"><b>Question#5</b></button>
+            <div class="collapse" id="c26_30ans5">
+                <p>5) Write a program that simulates a coin toss using random()
+                    method of JS Math class. Display the value of coin in your
+                    browser
+                </p>
+                <p>5) Answer= </p>
+                <ul>
+                    <li>var random = Math.random() * 2;</li>
+                    <li>var floor = Math.floor(random);</li>
+                    <li>if (floor === 0) {</li>
+                    <li>floor = 1;</li>
+                    <li>document.write(floor + "Random Coin Value: Heads");}</li>
+                    <li>else if (floor === 1) {</li>
+                    <li>floor = 2;</li>
+                    <li>document.write(floor + "Random Coin Value: Tails");}</li>
+                </ul>
+                <button onclick="c26_30ans5()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c26_30ans6"><b>Question#6</b></button>
+            <div class="collapse" id="c26_30ans6">
+                <p>6) Write a program that shows a random number between 1
+                    and 100 in your browser
+                </p>
+                <p>6) Answer= </p>
+                <ul>
+                    <li>var random = Math.random() * 101;</li>
+                    <li>var floor = Math.floor(random);</li>
+                    <li>document.write("Random Number Between 1 and 100: " + floor);</li>
+                </ul>
+                <button onclick="c26_30ans6()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c26_30ans7"><b>Question#7</b></button>
+            <div class="collapse" id="c26_30ans7">
+                <p>7) Write a program that asks the user about his weight. Parse
+                    the user input and display his weight in your browser.</p>
+                <ul>
+                    <li>Possible user inputs can be:</li>
+                    <li>a. 50</li>
+                    <li>b. 50kgs</li>
+                    <li>c. 50.2kgs</li>
+                    <li>d. 50.2kilograms</li>
+                </ul>
+                <p>7) Answer= </p>
+                <button onclick="c26_30ans7()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c26_30ans8"><b>Question#8</b></button>
+            <div class="collapse" id="c26_30ans8">
+                <p>8) Write a program that stores a random secret number from
+                    1 to 10 in a variable. Ask the user to input a number
+                    between 1 and 10. If the user input equals the secret
+                    number, congratulate the user.
+                </p>
+                <p>8) Answer= </p>
+                <ul>
+                    <li>var user = +prompt("Enter A Number Between 1 to 10");</li>
+                    <li>var random = Math.random() * 11;</li>
+                    <li>var floor = Math.floor(random);</li>
+                    <li>if (user === floor) {</li>
+                    <li>alert("Congratulation You Win");</li>
+                    <li>}else {</li>
+                    <li>alert("Try Again!");}</li>
+                </ul>
+                <button onclick="c26_30ans8()">For Alert Click Here</button>
+            </div>
+        </div>
+        <button data-toggle="collapse" data-target="#chap31_34">
+            <h3>Chapter#31 to 34</h3>
+        </button>
+        <div class="collapse" id="chap31_34">
+            <button>
+                <h3>Question & Answer</h3>
+            </button>
+            <button data-toggle="collapse" data-target="#c31_34ans1"><b>Question#1</b></button>
+            <div class="collapse" id="c31_34ans1">
+                <p>1) Write a program that displays current date and time in
+                    your browser.
+                </p>
+                <p>1) Answer= </p>
+                <ul>
+                    <li>var date = new Date();</li>
+                    <li>document.write(date);</li>
+                </ul>
+                <button onclick="c31_34ans1()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c31_34ans2"><b>Question#2</b></button>
+            <div class="collapse" id="c31_34ans2">
+                <p>2) Write a program that alerts the current month in words.
+                    For example December.
+                </p>
+                <p>2) Answer= </p>
+                <ul>
+                    <li>var month = ["January", "February", "March", "April", "May", "June", "July", "August",
+                        "September", "October", "November", "December"];</li>
+                    <li>var month1 = new Date();</li>
+                    <li>var month2 = month[month1.getMonth()];</li>
+                    <li>document.write("Current Month: " + month2);</li>
+                </ul>
+                <button onclick="c31_34ans2()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c31_34ans3"><b>Question#3</b></button>
+            <div class="collapse" id="c31_34ans3">
+                <p>3) Write a program that alerts the first 3 letters of the current
+                    day, for example if today is Sunday then alert will show
+                    Sun.
+                </p>
+                <p>3) Answer= </p>
+                <ul>
+                    <li>var date = new Date();</li>
+                    <li>var str = date.toString();</li>
+                    <li>var day = str.slice(0, 3);</li>
+                    <li>document.write("Today is " + day);</li>
+                </ul>
+                <button onclick="c31_34ans3()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c31_34ans4"><b>Question#4</b></button>
+            <div class="collapse" id="c31_34ans4">
+                <p>4) Write a program that displays a message “It’s Fun day” if
+                    its Saturday or Sunday today.
+                </p>
+                <p>4) Answer= </p>
+                <ul>
+                    <li>var Day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];</li>
+                    <li>var Day1 = new Date();</li>
+                    <li>var Day2 = Day[Day1.getDay()]; </li>
+                    <li>if (Day2 === Day[0]) {</li>
+                    <li>document.write("Its Fun Day");}</li>
+                    <li>else if (Day2 === Day[6]) {</li>
+                    <li>document.write("Its Fun Day");</li>
+                    <li>}else {</li>
+                    <li>document.write("Its Working Day");}</li>
+                </ul>
+                <button onclick="c31_34ans4()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c31_34ans5"><b>Question#5</b></button>
+            <div class="collapse" id="c31_34ans5">
+                <p>5) Write a program that shows the message “First fifteen
+                    days of the month” if the date is less than 16th of the month
+                    else shows “Last days of the month”.
+                </p>
+                <p>5) Answer= </p>
+                <ul>
+                    <li>var dat_e = new Date();</li>
+                    <li>var dat_e2 = dat_e.getDate();</li>
+                    <li>document.write("Date: " + dat_e2);</li>
+                    <li>if (dat_e2 < 16) {</li>
+                    <li>document.write("First Fifteen Days Of The Month");</li>
+                    <li>}else {</li>
+                    <li>document.write("Last Days Of The Month");}</li>
+                </ul>
+                <button onclick="c31_34ans5()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c31_34ans6"><b>Question#6</b></button>
+            <div class="collapse" id="c31_34ans6">
+                <p>6) Write a program that determines the minutes since
+                    midnight, Jan. 1, 1970 and assigns it to a variable that
+                    hasn't been declared beforehand. Use any variable you like
+                    to represent the Date object.
+                </p>
+                <p>6) Answer= </p>
+                <ul>
+                    <li>var dat_e = new Date();</li>
+                    <li>var dat_e2 = dat_e.getTime();</li>
+                    <li>var dat_e3 = dat_e2 / 60;</li>
+                    <li>document.write("Current Date: " + dat_e);</li>
+                    <li>document.write("Elapsed MiliSeconds Since January 1, 1970: " + dat_e2);</li>
+                    <li>document.write("Elapsed Minutes Since January 1, 1970: " + dat_e3);</li>
+                </ul>
+                <button onclick="c31_34ans6()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c31_34ans7"><b>Question#7</b></button>
+            <div class="collapse" id="c31_34ans7">
+                <p>7) Write a program that tests whether it's before noon and
+                    alert “Its AM” else “its PM”.
+                </p>
+                <p>7) Answer= </p>
+                <ul>
+                    <li>var i = new Date();</li>
+                    <li>var j = i.getHours();</li>
+                    <li>if (j < 12) {</li>
+                    <li>alert("It's AM");</li>
+                    <li>}else {</li>
+                    <li>alert("It's PM");}</li>
+                </ul>
+                <button onclick="c31_34ans7()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c31_34ans8"><b>Question#8</b></button>
+            <div class="collapse" id="c31_34ans8">
+                <p>8) Write a program that creates a Date object for the last day
+                    of the last month of 2020 and assigns it to variable named
+                    laterDate.
+                </p>
+                <p>8) Answer= </p>
+                <ul>
+                    <li>var laterDate = new Date("Dec 31, 2020");</li>
+                    <li>document.write("Later Date: " + laterDate);</li>
+                </ul>
+                <button onclick="c31_34ans8()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c31_34ans9"><b>Question#9</b></button>
+            <div class="collapse" id="c31_34ans9">
+                <p>9) Create a date object of the starting date of this Ramadan
+                    and alert the number of days past since 1st Ramadan?
+                    Note: 1st Ramadan was on June 18, 2015
+                </p>
+                <p>9) Answer= </p>
+                <ul>
+                    <li>var ramadan = new Date("april 24,2020");</li>
+                    <li>var ramadan1 = ramadan.getTime();</li>
+                    <li>var today = new Date();</li>
+                    <li>var today1 = today.getTime();</li>
+                    <li>var diff = today1 - ramadan1;</li>
+                    <li>var diffDay = diff/(1000*60*60*24);</li>
+                    <li>var floor = Math.floor(diffDay);</li>
+                    <li>document.write(floor + " Days Have Passed Since 1st Ramadan,2020");</li>
+                </ul>
+                <button onclick="c31_34ans9()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c31_34ans10"><b>Question#10</b></button>
+            <div class="collapse" id="c31_34ans10">
+                <p>10) Write a program that displays in your browser the
+                    seconds that elapsed between the reference date and the
+                    beginning of 2015.
+                </p>
+                <p>10) Answer= </p>
+                <ul>
+                    <li>var ref = new Date("jan 1,2020");</li>
+                    <li>var ref1 = ref.getTime();</li>
+                    <li>var ref2 = new Date();</li>
+                    <li>var ref3 = ref2.getTime();</li>
+                    <li>var diff = ref3 - ref1;</li>
+                    <li>var diffsec = diff/(1000*60);</li>
+                    <li>var floor = Math.floor(diffsec);</li>
+                    <li>document.write("On Reference Date " + ref2);</li>
+                    <li>document.write(floor + " Seconds Had Passed Since Beginning of 2020.")</li>
+                </ul>
+                <button onclick="c31_34ans10()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c31_34ans11"><b>Question#11</b></button>
+            <div class="collapse" id="c31_34ans11">
+                <p>11) Create a Date object for the current date and time.
+                    Extract the hours, reset the date object an hour ahead and
+                    finally display the date object in your browser.
+                </p>
+                <p>11) Answer= </p>
+                <ul>
+                    <li>var cdate = new Date();</li>
+                    <li>var cdate2 = cdate.getTime();</li>
+                    <li>var ago = new Date();</li>
+                    <li>ago.setHours(2);</li>
+                    <li>var ago2 = ago.getTime()</li>
+                    <li>var diff = ago2 - cdate2;</li>
+                    <li>var diffhour = diff/(1000*60*60);</li>
+                    <li>var floor = Math.floor(diffhour);</li>
+                    <li>document.write("Current Date: " + cdate);</li>
+                    <li>document.write(floor + " Hour Ago, It Was " + ago);</li>
+                </ul>
+                <button onclick="c31_34ans11()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c31_34ans12"><b>Question#12</b></button>
+            <div class="collapse" id="c31_34ans12">
+                <p>12) Write a program that creates a date object and show the
+                    date in an alert box that is reset to 100 years back?
+                </p>
+                <p>12) Answer= </p>
+                <button onclick="c31_34ans12()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c31_34ans13"><b>Question#13</b></button>
+            <div class="collapse" id="c31_34ans13">
+                <p>13) Write a program to ask the user about his age. Calculate
+                    and show his birth year in your browser.
+                </p>
+                <p>13) Answer= </p>
+                <button onclick="c31_34ans13()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c31_34ans14"><b>Question#14</b></button>
+            <div class="collapse" id="c31_34ans14">
+                <p>14) Write a program to generate your K-Electric bill in your
+                    browser. All the amounts should be rounded off to 2
+                    decimal places. Display the following fields:
+                </p>
+                <ul>
+                    <li>a. Customer Name</li>
+                    <li>b. Current Month</li>
+                    <li>c. Number of units</li>
+                    <li>d. Charges per unit</li>
+                    <li>e. Net Amount Payable (within Due Date)</li>
+                    <li>f. Late Payment Surcharge</li>
+                    <li>g. Gross Amount Payable (after Due Date) Where,</li>
+                </ul>
+                <p>14) Answer= </p>
+                <ul>
+                    <li>var c_name = "Moiz";</li>
+                    <li>var month = ["January", "February", "March", "April", "May", "June", "July", "August",
+                        "September", "October", "November", "December"];</li>
+                    <li>var month1 = new Date();</li>
+                    <li>var month2 = month[month1.getMonth()];</li>
+                    <li>var unit = 410;</li>
+                    <li>var c_unit = 16;</li>
+                    <li>var due_date = unit * c_unit;</li>
+                    <li>var late_payment = 350;</li>
+                    <li>var after_due_date = due_date + late_payment;</li>
+                    <li>document.write("K-Electric Bill");</li>
+                    <li>document.write("Month: " + month2);</li>
+                    <li>document.write("Number Of Units: " + unit);</li>
+                    <li>document.write("Charges Per Unit: " + c_unit);</li>
+                    <li>document.write("Net Amount Payable(Within Due Date): " + due_date);</li>
+                    <li>document.write("Late Payment Surcharge: " + late_payment);</li>
+                    <li>document.write("Gross Amount Payable(After Due Date): " + after_due_date);</li>
+                </ul>
+                <button onclick="c31_34ans14()">For Alert Click Here</button>
+            </div>
+        </div>
+        <button data-toggle="collapse" data-target="#chap35_38">
+            <h3>Chapter#35 to 38</h3>
+        </button>
+        <div class="collapse" id="chap35_38">
+            <button>
+                <h3>Question & Answer</h3>
+            </button>
+            <button data-toggle="collapse" data-target="#c35_38ans1"><b>Question#1</b></button>
+            <div class="collapse" id="c35_38ans1">
+                <p>1) Write a function that displays current date & time in your
+                    browser.
+                </p>
+                <p>1) Answer= </p>
+                <ul>
+                    <li>var c_date = new Date();</li>
+                    <li>document.write(c_date);</li>
+                </ul>
+                <button onclick="c35_38ans1()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c35_38ans2"><b>Question#2</b></button>
+            <div class="collapse" id="c35_38ans2">
+                <p>2) Write a function that takes first & last name and then it
+                    greets the user using his full name.
+                </p>
+                <p>2) Answer= </p>
+                <ul>
+                    <li>var fname = prompt("Enter First Name:");</li>
+                    <li>var lname = prompt("Enter Last Name:");</li>
+                    <li>var fullname = fname + lname;</li>
+                    <li>alert("Welcome " + fullname);</li>
+                </ul>
+                <button onclick="c35_38ans2()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c35_38ans3"><b>Question#3</b></button>
+            <div class="collapse" id="c35_38ans3">
+                <p>3) Write a function that adds two numbers (input by user)
+                    and returns the sum of two numbers.
+                </p>
+                <p>3) Answer= </p>
+                <ul>
+                    <li>var num1 = +prompt("Enter Number 1:");</li>
+                    <li>var num2 = +prompt("Enter Number 2:");</li>
+                    <li>var Result = num1 + num2;</li>
+                    <li>alert(Result);</li>
+                </ul>
+                <button onclick="c35_38ans3()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c35_38ans4"><b>Question#4</b></button>
+            <div class="collapse" id="c35_38ans4">
+                <p>4) Write a function that takes three arguments num1, num2
+                    & operator & compute the desired operation. Return and
+                    show the desired result in your browser.
+                </p>
+                <p>4) Answer= </p>
+                <ul>
+                    <li>var num1 = +prompt("Enter Number 1:");</li>
+                    <li>var opt = +prompt("Enter Operator:");</li>
+                    <li>var num2 = +prompt("Enter Number 2:");</li>
+                    <li>var Result = eval(num1, opt, num2);</li>
+                    <li>alert(Result);</li>
+                </ul>
+                <button onclick="c35_38ans4()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c35_38ans5"><b>Question#5</b></button>
+            <div class="collapse" id="c35_38ans5">
+                <p>5) Write a function that squares its argument.</p>
+                <p>5) Answer= </p>
+                <button onclick="c35_38ans5()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c35_38ans6"><b>Question#6</b></button>
+            <div class="collapse" id="c35_38ans6">
+                <p>6) Write a function that computes factorial of a number.</p>
+                <p>6) Answer= </p>
+                <button onclick="c35_38ans6()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c35_38ans7"><b>Question#7</b></button>
+            <div class="collapse" id="c35_38ans7">
+                <p>7) Write a function that take start and end number as inputs
+                    & display counting in your browser.</p>
+                <p>7) Answer= </p>
+                <button onclick="c35_38ans7()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c35_38ans8"><b>Question#8</b></button>
+            <div class="collapse" id="c35_38ans8">
+                <p>8) Write a nested function that computes hypotenuse of a
+                    right angle triangle.
+                </p>
+                <ul>
+                    <li>Hypotenuse2 = Base2 + Perpendicular2</li>
+                    <li>Take base and perpendicular as inputs.</li>
+                    <li>Outer function : calculateHypotenuse()</li>
+                    <li>Inner function: calculateSquare()</li>
+                </ul>
+                <p>8) Answer= </p>
+                <button onclick="c35_38ans8()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c35_38ans9"><b>Question#9</b></button>
+            <div class="collapse" id="c35_38ans9">
+                <p>9) Write a function that calculates the area of a rectangle.</p>
+                <ul>
+                    <li>A = width * height</li>
+                    <li>Pass width and height in following manner:</li>
+                    <li>i. Arguments as value</li>
+                    <li>ii. Arguments as variables</li>
+                </ul>
+                <p>9) Answer= </p>
+                <button onclick="c35_38ans9()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c35_38ans10"><b>Question#10</b></button>
+            <div class="collapse" id="c35_38ans10">
+                <p>10) Write a JavaScript function that checks whether a passed
+                    string is palindrome or not?
+                </p>
+                <p>10) Answer= </p>
+                <button onclick="c35_38ans10()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c35_38ans11"><b>Question#11</b></button>
+            <div class="collapse" id="c35_38ans11">
+                <p>11)
+                    Write a JavaScript function that accepts a string as a
+                    parameter and converts the first letter of each word of the
+                    string in upper case.
+                </p>
+                <ul>
+                    <li>EXAMPLE STRING : 'the quick brown fox'</li>
+                    <li>EXPECTED OUTPUT : 'The Quick Brown Fox'</li>
+                </ul>
+                <p>11) Answer= </p>
+                <button onclick="c35_38ans11()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c35_38ans12"><b>Question#12</b></button>
+            <div class="collapse" id="c35_38ans12">
+                <p>12) Write a JavaScript function that accepts a string as a
+                    parameter and find the longest word within the string.
+                </p>
+                <ul>
+                    <li>EXAMPLE STRING : 'Web Development Tutorial'</li>
+                    <li>EXPECTED OUTPUT : 'Development'</li>
+                </ul>
+                <p>12) Answer= </p>
+                <button onclick="c35_38ans12()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c35_38ans13"><b>Question#13</b></button>
+            <div class="collapse" id="c35_38ans13">
+                <p>13) Write a JavaScript function that accepts two arguments, a
+                    string and a letter and the function will count the number of
+                    occurrences of the specified letter within the string.
+                    Sample arguments : 'JSResourceS.com', 'o'
+                </p>
+                <p>13) Answer= </p>
+                <button onclick="c35_38ans13()">For Alert Click Here</button>
+            </div>
+            <button data-toggle="collapse" data-target="#c35_38ans14"><b>Question#14</b></button>
+            <div class="collapse" id="c35_38ans14">
+                <p>14) Create 2 functions that calculate properties of a circle, using
+                    the definitions here.</p>
+                <ul>
+                    <li>Create a function called calcCircumference:</li>
+                    <li>• Pass the radius to the function.</li>
+                    <li>• Calculate the circumference based on the radius, and output
+                        "The circumference is NN".</li>
+                    <li>Create a function called calcArea:</li>
+                    <li>• Pass the radius to the function.</li>
+                    <li>• Calculate the area based on the radius, and output "The area
+                        is NN".</li>
+                    <li>Circumference of circle = 2πr</li>
+                    <li>Area of circle = πr2</li>
+                </ul>
+                <p>14) Answer= </p>
+                <button onclick="c35_38ans14()">For Alert Click Here</button>
+            </div>
+        </div>
     </div>
 </body>
 

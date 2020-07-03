@@ -200,3 +200,268 @@ function c21_25ans17() {
 
 // document.write(count("The quick brown fox jumps over the lazy dog", 'the') + "<br>");
 // document.write(count("The quick brown fox jumps over the lazy dog", 'fox', false));
+// Chapter#26 to 30
+// Q1
+function c26_30ans1() {
+    var user = +prompt("Enter Positive Integar");
+    var round = Math.round(user);
+    var floor = Math.floor(user);
+    var ceil = Math.ceil(user);
+    document.write("Number: " + user + "<br>");
+    document.write("Round Off Value: " + round + "<br>");
+    document.write("Floor Value: " + floor + "<br>");
+    document.write("Ceil Value: " + ceil + "<br>");
+    document.write(refresh);
+}
+// Q2
+function c26_30ans2() {
+    var user = +prompt("Enter Negative Integar");
+    var round = Math.round(user);
+    var floor = Math.floor(user);
+    var ceil = Math.ceil(user);
+    document.write("Number: " + user + "<br>");
+    document.write("Round Off Value: " + round + "<br>");
+    document.write("Floor Value: " + floor + "<br>");
+    document.write("Ceil Value: " + ceil + "<br>");
+    document.write(refresh);
+}
+// Q3
+function c26_30ans3() {
+    var user = +prompt("Enter Any Value:");
+    var absolute = Math.abs(user);
+    document.write("The Absolute Value Of " + user + " is " + absolute + "<br>");
+}
+// Q4
+function c26_30ans4() {
+    var random = Math.random() * 6;
+    var floor = Math.floor(random);
+    if (floor === 0) {
+        document.write("Random Dice Value is: 1" + "<br>");
+    }
+    else {
+        document.write("Random Dice Value is: " + floor + "<br>");
+    }
+    document.write(refresh);
+}
+// Q5
+function c26_30ans5() {
+    var random = Math.random() * 2;
+    var floor = Math.floor(random);
+    if (floor === 0) {
+        floor = 1;
+        document.write(floor + "<br>" + "Random Coin Value: Heads" + "<br>");
+    }
+    else if (floor === 1) {
+        floor = 2;
+        document.write(floor + "<br>" + "Random Coin Value: Tails" + "<br>");
+    }
+    document.write(refresh);
+}
+// Q6
+function c26_30ans6() {
+    var random = Math.random() * 101;
+    var floor = Math.floor(random);
+    document.write("Random Number Between 1 and 100: " + floor + "<br>");
+    document.write(refresh);
+}
+// Q7
+
+
+
+
+
+
+// Q8
+function c26_30ans8() {c
+    document.write(refresh);
+}
+// Chapter#31 to 34
+// Q1
+function c31_34ans1() {
+    var date = new Date();
+    document.write(date + "<br>");
+    document.write(refresh);
+}
+// Q2
+function c31_34ans2() {
+    var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    var month1 = new Date();
+    var month2 = month[month1.getMonth()];
+    document.write("Current Month: " + month2 + "<br>");
+    document.write(refresh);
+}
+// Q3
+function c31_34ans3() {
+    var date = new Date();
+    var str = date.toString();
+    var day = str.slice(0, 3);
+    document.write("Today is " + day + "<br>");
+    document.write(refresh);
+}
+// Q4
+function c31_34ans4() {
+    var Day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    var Day1 = new Date();
+    var Day2 = Day[Day1.getDay()]; 
+    if (Day2 === Day[0]) {
+        document.write("Its Fun Day");
+    }
+    else if (Day2 === Day[6]) {
+        document.write("Its Fun Day");
+    }else {
+        document.write("Its Working Day");
+    }
+    document.write("<br>" + refresh);
+}
+// Q5
+function c31_34ans5() {
+    var dat_e = new Date();
+    var dat_e2 = dat_e.getDate();
+    document.write("Date: " + dat_e2 + "<br>");
+    if (dat_e2 < 16) {
+        document.write("First Fifteen Days Of The Month");
+    }else {
+        document.write("Last Days Of The Month");
+    }
+    document.write("<br>" + refresh);
+}
+// Q6
+function c31_34ans6() {
+    var dat_e = new Date();
+    var dat_e2 = dat_e.getTime();
+    var dat_e3 = dat_e2 / 60;
+    document.write("Current Date: " + dat_e + "<br>");
+    document.write("Elapsed MiliSeconds Since January 1, 1970: " + dat_e2 + "<br>");
+    document.write("Elapsed Minutes Since January 1, 1970: " + dat_e3 + "<br>");
+    document.write(refresh);
+}
+// Q7
+function c31_34ans7() {
+    var i = new Date();
+    var j = i.getHours();
+    if (j < 12) {
+        alert("It's AM");
+    }else {
+        alert("It's PM");
+    }
+}
+// Q8
+function c31_34ans8() {
+    var laterDate = new Date("Dec 31, 2020");
+    document.write("Later Date: " + laterDate);
+    document.write("<br>" + refresh);
+}
+// Q9
+function c31_34ans9() {
+    var ramadan = new Date("april 24,2020");
+    var ramadan1 = ramadan.getTime(); 
+    var today = new Date();
+    var today1 = today.getTime();
+    var diff = today1 - ramadan1;
+    var diffDay = diff/(1000*60*60*24);
+    var floor = Math.floor(diffDay);
+    document.write(floor + " Days Have Passed Since 1st Ramadan,2020");
+    document.write("<br>" + refresh);
+}
+// Q10
+function c31_34ans10() {
+    var ref = new Date("jan 1,2020");
+    var ref1 = ref.getTime(); 
+    var ref2 = new Date();
+    var ref3 = ref2.getTime();
+    var diff = ref3 - ref1;
+    var diffsec = diff/(1000*60);
+    var floor = Math.floor(diffsec);
+    document.write("On Reference Date " + ref2 + "<br>");
+    document.write(floor + " Seconds Had Passed Since Beginning of 2020.")
+    document.write("<br>" + refresh);
+}
+// Q11
+function c31_34ans11() {
+    var cdate = new Date();
+    var cdate2 = cdate.getTime();
+    var ago = new Date();
+    ago.setHours(2);
+    var ago2 = ago.getTime()
+    var diff = ago2 - cdate2;
+    var diffhour = diff/(1000*60*60);
+    var floor = Math.floor(diffhour);
+    document.write("Current Date: " + cdate + "<br>");
+    document.write(floor + " Hour Ago, It Was " + ago);
+    document.write("<br>" + refresh);
+}
+// Q12
+// function c31_34ans12() {
+//     var cdate = new Date();
+//     var cdate2 = cdate.getTime();
+//     var ago = new Date();
+//     ago.setHours(2);
+//     var ago2 = ago.getTime()
+//     var diff = ago2 - cdate2;
+//     var diffhour = diff/(1000*60*60);
+//     var floor = Math.floor(diffhour);
+//     document.write("Current Date: " + cdate + "<br>");
+//     document.write(floor + " Hour Ago, It Was " + ago);
+//     document.write("<br>" + refresh);
+// }
+// c31_34ans12
+// Q13
+// function c31_34ans13() {
+
+
+
+
+
+
+
+
+// }
+// Q14
+function c31_34ans14() {
+    var c_name = "Moiz";
+    var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    var month1 = new Date();
+    var month2 = month[month1.getMonth()];
+    var unit = 410;
+    var c_unit = 16;
+    var due_date = unit * c_unit;
+    var late_payment = 350;
+    var after_due_date = due_date + late_payment;
+    document.write("K-Electric Bill" + "<br>" + "<br>");
+    document.write("Month: " + month2 + "<br>");
+    document.write("Number Of Units: " + unit + "<br>");
+    document.write("Charges Per Unit: " + c_unit + "<br>" + "<br>");
+    document.write("Net Amount Payable(Within Due Date): " + due_date + "<br>");
+    document.write("Late Payment Surcharge: " + late_payment + "<br>");
+    document.write("Gross Amount Payable(After Due Date): " + after_due_date + "<br>");
+    document.write(refresh);
+}
+// Chapter#35 to 38
+// Q1
+function c35_38ans1() {
+    var c_date = new Date();
+    document.write(c_date + "<br>");
+    document.write(refresh);
+}
+// Q2
+function c35_38ans2() {
+    var fname = prompt("Enter First Name:");
+    var lname = prompt("Enter Last Name:");
+    var fullname = fname + lname;
+    alert("Welcome " + fullname);
+}
+// Q3
+function c35_38ans3() {
+    var num1 = +prompt("Enter Number 1:");
+    var num2 = +prompt("Enter Number 2:");
+    var Result = num1 + num2;
+    alert(Result);
+}
+// Q4
+function c35_38ans4() {
+    var num1 = +prompt("Enter Number 1:");
+    var opt = +prompt("Enter Operator:");
+    var num2 = +prompt("Enter Number 2:");
+    var Result = eval(num1, opt, num2);
+    alert(Result);
+}
